@@ -1,0 +1,93 @@
+body {
+  background-color: lightblue;
+}
+
+/* THE FOLLOWING IS FOR THE NAVBAR */
+
+nav {
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+nav #title {
+  color: #fff;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 900;
+  margin-left: 1%;
+  position: relative;
+  top: 4px;
+  left: 20px;
+}
+
+nav #title span {
+  font-family: monospace;
+  font-weight: 100;
+}
+
+nav h6 {
+  display: inline-block;
+  margin: 0;
+}
+
+nav ul {
+  display: inline-block;
+  margin-left: 74%;
+}
+
+nav li {
+  display: inline-block;
+  color: #fff;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #fff;
+}
+
+nav li a:hover {
+  color: lightblue;
+  font-size: 20px;
+}
+
+/* END NAVBAR */
+
+/* BEGIN BIO */
+section.bio {
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #aa3939;
+  border: 5px solid #FFF;
+  min-height: 722px;
+  vertical-align: top;
+}
+
+section.bio img {
+  width: 80%;
+  margin-top: 3%;
+  border-radius: 100%;
+}
+
+section.bio p {
+  color: #fff;
+}
+
+/* END BIO */
+
+/*BEGIN MAIN-CONTENT*/
+section#main-content {
+  width: 69%;
+  display: inline-block;
+}
+
+section#main-content img{
+  width: 48%;
+  border: 5px solid #fff;
+}
+/* END MAIN-CONTENT */
